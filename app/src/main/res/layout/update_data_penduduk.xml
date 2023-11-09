@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="com.example.smartcity.UpdateDataPenduduk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/new_nik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NIK Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_kk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No. KK Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nama Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_tempat_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tempat Lahir Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_tanggal_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tanggal Lahir Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_nama_ayah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nama Ayah Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_nama_ibu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nama Ibu Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Pekerjaan Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Agama Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_goldar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Golongan Darah Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Alamat Baru"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/new_no_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No. HP Baru"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
